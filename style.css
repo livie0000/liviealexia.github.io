@@ -1,16 +1,127 @@
-.paragraf{
-    color: aqua;
-}
-h1{
-    color:aliceblue;
-}
-.judul2{
+body {
    
-    color:blueviolet;
+    margin: 4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #d0677b;
+  color: white;
+
 }
-.judul{
-    color:black;
+header{
+    padding: :20px;
+    position: relative;
 }
-body{
-    background-color:blueviolet;
+nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: bold;
+}
+.intro{
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+   
+}
+.intro h1{
+    font-size: 32px;
+    line-height: 1.5;
+    style="color: ";
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #b0a3a3;
+    color: #000;
+    border:none;
+    cursor: pointer;
+}
+.bulat-oval{
+  width: 160px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid snow;
+}
+.about-section{
+    padding: 40px 20px;
+    background: #b45266;
+
+}
+.about-section2{
+    font-size: 28px;
+
+}
+.highlight{
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+.info-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.info-grid div{
+    width: 50%;
+}
+
+.divider2 {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #fff, #c46c7f, #fff);
+  width: 500%;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+.profile-box {
+  display: flex;
+  align-items: flex-start;
+}
+.list-item {
+  color: white;
+  background-color: black;
+  padding: 5px; /* Tambahkan padding jika dibutuhkan */
+}
+
+
+.btn-next {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #c4bfbf;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-next:hover {
+  background: #fff;
+}
+
+
+.gambar-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.gambar-container img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.skincare{
+   width: 160px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid snow;
+}
+
+.influencer{
+  width: 160px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid snow;
 }
